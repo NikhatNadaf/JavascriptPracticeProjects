@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(215, 211, 205);
+    font-family: "Radio Canada Big", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.main{
+    height: 30%;
+    width: 40%;
+    border: 1px solid black;
+    background: linear-gradient(to right, #333, #333 50%, #eee 75%, #333 75%);
+    
+}
+.in1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+button{
+    margin-left: 50%;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    background-color:rgba(0,0, 0,0.2);
+    color: #eee;
+    font-size: 0.9em;
+}
+.input{
+    height: 2em;
+    border-radius:3px;
+}
+p{
+    color: white;
+    background-color: black;
+    height: 1.5rem;
+    width: 7em;
+    text-align: center;
+}
